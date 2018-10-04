@@ -1,0 +1,1 @@
+<?phpif( ! class_exists( 'woocommerce' ) ) return;$wc = glob( zoa_get_theme_file_path() . '/inc/woocommerce/*.php' );foreach( $wc as $key ){    if ( file_exists( $key ) ) {        require_once $key;    }}
