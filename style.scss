@@ -1,0 +1,43 @@
+/*
+Theme Name: Zoa Child
+Theme URI: http://haintheme.com
+Template: zoa
+Author: willian de olivera
+Author URI: http://themeforest.net/user/haintheme
+Description: Zoa child theme from willian de oliveira
+Tags: custom-background,threaded-comments,custom-menu,featured-images,full-width-template,theme-options
+Version: 1.1.1538661612
+Updated: 2018-10-04 14:00:12
+*/
+#zoa_child_theme_footer{
+    position: relative;
+    background-color: #222;
+    h2{ 
+        color: white
+    }
+    hr{
+        background-color: #404040;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img_logo{
+        img{
+            width: 170px;
+            margin-top: 15px;
+        }
+    }
+    .social_network{
+        display: flex;
+        img{
+            margin: 2px;
+            transition: 0.3s;
+        }
+        img:hover{
+            width: 44px;
+        }
+    }
+    .zoa_child_subfooter{
+        padding: 10px;
+    }
+}
