@@ -6,26 +6,26 @@ function render_footer(){
             <div class="row col-lg-12">
                 <div class="col-lg-4">
                     <h2>Instaarts</h2>
-                    <p><a href="#">Sobre a gente</a></p>
-                    <p><a href="#">Custos e tempo de entrega</a></p> 
-                    <p><a href="#">Preços e formatos</a></p>
-                    <p><a href="#">Trabalhe conosco</a></p>
-                    <p><a href="#">Molduras</a></p>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'sobre-a-gente' ) ) ); ?>">Sobre a gente</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'custos e tempo de entrega' ) ) ); ?>">Custos e tempo de entrega</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'preços e formatos' ) ) ); ?>">Preços e formatos</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'trabalhe conosco' ) ) ); ?>">Trabalhe conosco</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'molduras' ) ) ); ?>">Molduras</a><br>
                 </div>
 
                 <div class="col-lg-4">
                     <h2>Informações úteis</h2>
-                    <p><a href="#">Preços por volume</a></p>
-                    <p><a href="#">Termos e condiçoes</a></p>
-                    <p><a href="#">Politica de privacidade</a></p>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'preços por volume' ) ) ); ?>">Preços por volume</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'termos e condições' ) ) ); ?>">Termos e condiçoes</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'politica de privacidade' ) ) ); ?>">Politica de privacidade</a><br>
                 </div>
 
                 <div class="col-lg-4">
                     <h2>Ajuda</h2>
-                    <p><a href="#">F.A.Q</a></p>
-                    <p><a href="#">Perfil ICC</a></p>
-                    <p><a href="#">Photoarts Gallery</a></p>
-                    <p><a href="#">Politica de devolução</a></p>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'faq' ) ) ); ?>">F.A.Q</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'perfil icc' ) ) ); ?>">Perfil ICC</a><br>
+                    <a href="http://www.photoarts.com.br/">Photoarts Gallery</a><br>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'politica de devolução' ) ) ); ?>">Politica de devolução</a><br>
                 </div>
             </div>
         </div>
