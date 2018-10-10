@@ -33,7 +33,8 @@ function render_footer(){
         <div class="container">
             <div class="row col-lg-12">
                 <div class="col-lg-4 img_logo">
-                    <?php echo wp_get_attachment_image( 138, array('700', '600'), "", array( "class" => "img-responsive" ) );  ?>
+                    <img src="http://homologa.arteref.com/wp-content/uploads/2018/10/cropped-Logo-Instaarts-64x20-1-1.png" alt="Logo instaarts">
+                    <?php //echo wp_get_attachment_image( 138, array('700', '600'), "", array( "class" => "img-responsive" ) );  ?>
                 </div>
            
                 <div class="col-lg-4">
