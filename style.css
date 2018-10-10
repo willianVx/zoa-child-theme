@@ -44,4 +44,24 @@ Updated: 2018-10-04 14:00:12
   display: none !important;
 }
 
+.woocommerce-mini-cart__total .amount {
+  padding: 5px;
+  color: white !important;
+  background-color: #27b749 !important;
+}
+
+.cart-sidebar-content .woocommerce-mini-cart__buttons .checkout {
+  color: white !important;
+  background-color: #27b749 !important;
+}
+
+.cart-sidebar-content .woocommerce-mini-cart__buttons .checkout {
+  color: white;
+  background-color: #27b749 !important;
+}
+
+.button .checkout .wc-forward:hover {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
