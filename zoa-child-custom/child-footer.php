@@ -34,7 +34,7 @@ function render_footer(){
             <div class="row col-lg-12">
                 <div class="col-lg-4 img_logo">
                     <img src="http://homologa.arteref.com/wp-content/uploads/2018/10/cropped-Logo-Instaarts-64x20-1-1.png" alt="Logo instaarts">
-                    <?php //echo wp_get_attachment_image( 138, array('700', '600'), "", array( "class" => "img-responsive" ) );  ?>
+                    <p><img class="zoa_ssl_logo" src="<?php echo get_stylesheet_directory_uri(). '/img/ssl_logo.png'; ?>" border="0" /></p>
                 </div>
            
                 <div class="col-lg-4">
