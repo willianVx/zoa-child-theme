@@ -24,7 +24,7 @@ function render_footer(){
                     <h2>Ajuda</h2>
                     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'faq' ) ) ); ?>">F.A.Q</a><br>
                     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'perfil icc' ) ) ); ?>">Perfil ICC</a><br>
-                    <a href="http://www.photoarts.com.br/">Photoarts Gallery</a><br>
+                    <a href="https://www.photoarts.com.br/">Photoarts Gallery</a><br>
                     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'politica de devolução' ) ) ); ?>">Politica de devolução</a><br>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function render_footer(){
         <div class="container">
             <div class="row col-lg-12">
                 <div class="col-lg-4 img_logo">
-                    <img src="http://homologa.arteref.com/wp-content/uploads/2018/10/cropped-Logo-Instaarts-64x20-1-1.png" alt="Logo instaarts">
+                    <img src="https://instaarts.com/wp-content/uploads/2018/10/Logo-Instaarts-64x20-2.png" alt="Logo instaarts">
                     <p><img class="zoa_ssl_logo" src="<?php echo get_stylesheet_directory_uri(). '/img/ssl_logo.png'; ?>" border="0" /></p>
                 </div>
            

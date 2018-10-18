@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-    $('.logo').html('<img src="http://homologa.arteref.com/wp-content/uploads/2018/10/cropped-Logo-Instaarts-64x20-1-1.png"/>');
+    $('.logo').html('<img src="https://instaarts.com/wp-content/uploads/2018/10/Logo-Instaarts-64x20-2.png"/>');
 
     //traduz formulario de busca 
     var input_search_form = $('#theme-search-form').find('input');
