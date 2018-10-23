@@ -10,7 +10,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <?php zoa_preloader(); ?>
+    <?php zoa_preloader(); //inicia modal para formulario newsletter
+    modal_form(); ?>
     
     <div id="theme-container">
         <?php zoa_before_content(); ?>

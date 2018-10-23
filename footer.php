@@ -1,6 +1,6 @@
 	<footer id="theme-footer">
         <?php // zoa_footer(); 
-        render_footer()
+        render_footer();
         ?>
 	</footer>
 
@@ -21,7 +21,6 @@
         if ( true == get_theme_mod( 'loading', false ) ) {
             echo '<span class="is-loading-effect"></span>';
         }
-        
         wp_footer();
     ?>
 </body>
