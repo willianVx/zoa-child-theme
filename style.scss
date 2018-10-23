@@ -65,3 +65,31 @@ Updated: 2018-10-04 14:00:12
   .zoa_ssl_logo{
       max-width: 120px;
   }
+
+//formulario para newsletter instaarts
+$cor_verde: #38b753;
+.modal_subscribeform_10{
+    color: white;
+    background: $cor_verde;
+    text-align: center;
+    font-size: 4em;
+    line-height: normal;
+    height: 100;
+    width: 100%;
+    padding: 17px;
+    border-radius: 15px 50px;
+    span{
+        font-size: 0.3em;
+    }
+}
+.submit_modal_subscribeform{
+    padding: 10px!important;
+    background-color: $cor_verde;
+    color: white;
+    font-family: sans-serif;
+    transition: 0.3s ease;
+    :hover{
+        background-color: white!important;
+        color: $cor_verde!important;
+    }
+}
