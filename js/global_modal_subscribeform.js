@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
     //armazena estado do modal / true para ainda não foi mostrado e false para já mostrado
     function modal_local_storage(){
         if (sessionStorage.getItem("modal_subscribeform")) {
-            console.log('não exibir modal');
+            return;
         }
         else{
             $('#modal_subscribeform').modal('show');
