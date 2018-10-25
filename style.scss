@@ -85,6 +85,7 @@ $cor_verde: #38b753;
 .submit_modal_subscribeform{
     padding: 10px!important;
     background-color: $cor_verde;
+    border: 1px solid;
     color: white;
     font-family: sans-serif;
     transition: 0.3s ease;
@@ -92,4 +93,18 @@ $cor_verde: #38b753;
         background-color: white!important;
         color: $cor_verde!important;
     }
+}
+.modal_subscribe_form_ganhe{
+    text-align: center;
+    color: #38b753;
+    font-family: sans-serif;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+.formulario_subscribe{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: $cor_verde;
+    color: white;
+    border-radius: 6px;
 }
