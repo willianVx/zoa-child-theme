@@ -43,7 +43,7 @@ function render_footer(){
                     O Instaarts - Laboratório de Arte Contemporânea foi criado com o propósito de ajudar tanto artistas profissionais quanto pessoas interessadas a terem o melhor da produção de quadros com qualidade de museu de forma fácil e rápida. Possuímos o melhor equipamento e conhecimento técnico para fornecer todos os serviço que você precisa entregues diretamente em sua casa ou atelier
                     </p>
                     <p>
-                        Contato: <a href="mailto:contato@intaarts.com.br"> contato@instaarts.com.br</a>
+                        Contato: <a href="mailto:contato@instaarts.com.br"> contato@instaarts.com.br</a>
                     </p>
                 </div>
 
