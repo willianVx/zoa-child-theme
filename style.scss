@@ -107,3 +107,193 @@ $cor_verde: #38b753;
     color: white;
     border-radius: 6px;
 }
+/* 
+* Footer do tema 
+*/
+#theme-footer{
+    top: 200px;
+}
+//zoa-child_custom_content
+/* 
+* Header do instaarts news
+*/
+$cor_principal_custom_content: #3bb44a;
+.news_content{
+    margin-top: 100px;
+        .container{
+            div{
+                position: relative;
+            }
+        }
+}
+.header_instaarts_news{
+    color: $cor_principal_custom_content;
+    h2{
+        color: $cor_principal_custom_content;
+    }
+    h2 span{
+        color: white;
+        background-color: $cor_principal_custom_content;
+        padding-left: 6px;
+        padding-right: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+/* 
+* Fim Header do instaarts news
+*/
+
+/*
+* News destaque
+*/
+.instaarts_news_destaque{
+    //border: 1px solid #e3e3e3;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+    display: inline-flex;
+    justify-content: center;
+    //margin-top: 100px;
+//margin-bottom: 100px;
+    img{
+        position: relative;
+        top: 10px;
+    }
+    div{
+        background-color: white;
+        border: 1px solid #e3e3e3;
+        padding: 14px;
+        position: relative;
+        bottom: 10px;
+        text-align: left;
+        transition: 0.4s ease;
+        span{
+            color: white;
+            padding: 4px;
+            background-color: $cor_principal_custom_content;
+            font-size: 1.2em;
+        }
+    }
+    &:hover{
+        //border: 1px solid $cor_principal_custom_content;
+        div{
+            background-color: $cor_principal_custom_content;
+            color: white;
+        }
+    }
+}
+/*
+* Fim News destaque
+*/
+
+/*
+* Posts n1
+*/
+.posts_n1_instaarts_news{
+    .post_col{
+        cursor: pointer;
+        border: 1px solid #e3e3e3;
+        text-align: center;
+        max-width: 379px;
+        margin: 5px;
+        transition: 0.4s ease;
+        img{
+            position: relative;
+            top: 10px;
+            width: 100%;
+        }
+        div{
+            background-color: white;
+            border: 1px solid #e3e3e3;
+            height: 118px;
+            position: relative;
+            bottom: 10px;
+            transition: 0.4s ease;
+            span{
+                color: $cor_principal_custom_content;
+                font-size: 1.2em;
+                transition: 0.4s ease;
+            }
+        }
+    
+        &:hover{
+            border: 1px solid $cor_principal_custom_content;
+            div{
+                background-color: $cor_principal_custom_content;
+                color: white;
+                span{
+                    color: white;
+                }
+            }
+        }    
+    }
+}
+/*
+* Posts n1 
+*/
+
+/*
+* Produto
+*/
+.produtos_instaarts_news{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    top:72px;
+    .col-lg-3{
+        padding-top: 50px;
+    }
+    h2{
+        padding: 5px;
+        background-color: $cor_principal_custom_content;
+        color: white;
+        max-width: 405px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-bottom: 72px;
+    }
+}
+@media (max-width: 324px){
+    .produtos_instaarts_news{
+        width: 90%;
+    }
+}
+/*
+* Produto
+*/
+/* 
+     posts_n2_instaarts_news
+*/
+.posts_n2_instaarts_news{
+    .post_col{
+        cursor: pointer;
+        border: 1px solid #e3e3e3;
+        text-align: center;
+        max-height: 415px;
+        max-width: 575px;
+        margin: 5px;
+        div{
+            background-color: white;
+            border: 1px solid #e3e3e3;
+            position: relative;
+            bottom: 10px;
+            transition: 0.4s ease;
+            span{
+                color: $cor_principal_custom_content;
+                font-size: 1.2em;
+            }
+        }
+        &:hover{
+            border: 1px solid $cor_principal_custom_content;
+            div{
+                background-color: $cor_principal_custom_content;
+                color: white;
+                span{
+                    color: white;
+                }
+            }
+        }  
+    }
+}
