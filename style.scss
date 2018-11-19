@@ -148,17 +148,14 @@ $cor_principal_custom_content: #3bb44a;
 * News destaque
 */
 .instaarts_news_destaque{
-    //border: 1px solid #e3e3e3;
-    text-align: center;
     cursor: pointer;
     transition: 0.4s ease;
-    display: inline-flex;
-    justify-content: center;
-    //margin-top: 100px;
-//margin-bottom: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     img{
         position: relative;
         top: 10px;
+        width: 100%;
     }
     div{
         background-color: white;
@@ -198,6 +195,7 @@ $cor_principal_custom_content: #3bb44a;
         max-width: 379px;
         margin: 5px;
         transition: 0.4s ease;
+        margin-bottom: 100px;
         img{
             position: relative;
             top: 10px;
@@ -274,6 +272,7 @@ $cor_principal_custom_content: #3bb44a;
         max-height: 415px;
         max-width: 575px;
         margin: 5px;
+        margin-bottom: 100px;
         div{
             background-color: white;
             border: 1px solid #e3e3e3;
