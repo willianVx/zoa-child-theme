@@ -98,21 +98,21 @@ function conteudo_news(){
                     </div>
 
                     <div class="col-lg-3">
-                    <img src="https://instaarts.com/wp-content/uploads/2018/10/metacrilato-7-mm-galeria-square-1.jpg" alt="">
+                    <img src="https://instaarts.com/wp-content/uploads/2018/10/metacrilato-5-mm-ACM-300x300-1.jpg" alt="">
                         <p>Metacrilato 5mm</p>
                         <br>
                         <?php echo do_shortcode('[pedido_link]'); ?>
                     </div>
 
                     <div class="col-lg-3">
-                    <img src="https://instaarts.com/wp-content/uploads/2018/10/metacrilato-7-mm-galeria-square-1.jpg" alt="">
+                    <img src="https://instaarts.com/wp-content/uploads/2018/10/tour-eiffel-500x500.jpg" alt="">
                         <p>Photobloco</p>
                         <br>
                         <?php echo do_shortcode('[pedido_link_photobloco]'); ?>
                     </div>
 
                     <div class="col-lg-3">
-                    <img src="https://instaarts.com/wp-content/uploads/2018/10/metacrilato-7-mm-galeria-square-1.jpg" alt="">
+                    <img src="https://instaarts.com/wp-content/uploads/2018/10/porta-retratos3x2-300x300.jpg" alt="">
                         <p>Porta-retratos</p>
                         <br>
                         <?php echo do_shortcode('[pedido_link_porta_retratos]'); ?>
