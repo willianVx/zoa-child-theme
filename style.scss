@@ -9,6 +9,9 @@ Tags: custom-background,threaded-comments,custom-menu,featured-images,full-width
 Version: 1.1.1538661612
 Updated: 2018-10-04 14:00:12
 */
+#theme-container{
+    overflow-x: initial!important;
+}
 #zoa_child_theme_footer{
     position: relative;
     background-color: #222;
