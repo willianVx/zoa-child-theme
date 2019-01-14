@@ -1,1 +1,362 @@
-#theme-container{overflow-x:initial !important}#zoa_child_theme_footer{position:relative;background-color:#222}#zoa_child_theme_footer h2{color:#fff}#zoa_child_theme_footer hr{background-color:#404040;width:70%;margin-left:auto;margin-right:auto}#zoa_child_theme_footer .img_logo img{width:170px;margin-top:15px}#zoa_child_theme_footer .social_network{display:flex}#zoa_child_theme_footer .social_network img{margin:2px;transition:.3s}#zoa_child_theme_footer .social_network img:hover{width:44px}#zoa_child_theme_footer .zoa_child_subfooter{padding:10px}.entry-title{display:none !important}.woocommerce-mini-cart__total .amount{padding:5px;color:#fff !important;background-color:#27b749 !important}.cart-sidebar-content .woocommerce-mini-cart__buttons .checkout{color:#fff !important;background-color:#27b749 !important}.cart-sidebar-content .woocommerce-mini-cart__buttons .checkout{color:#fff;background-color:#27b749 !important}.button .checkout .wc-forward:hover{color:#fff}.zoa_ssl_logo{max-width:120px}.modal_subscribeform_10{color:#fff;background:#38b753;text-align:center;font-size:4em;line-height:normal;height:100;width:100%;padding:17px;border-radius:15px 50px}.modal_subscribeform_10 span{font-size:.3em}.submit_modal_subscribeform{padding:10px !important;background-color:#38b753;border:1px solid;color:#fff;font-family:sans-serif;transition:.3s ease}.submit_modal_subscribeform :hover{background-color:#fff !important;color:#38b753 !important}.modal_subscribe_form_ganhe{text-align:center;color:#38b753;font-family:sans-serif;font-size:2.2em;margin-bottom:10px}.formulario_subscribe{margin-top:10px;padding:10px;background-color:#38b753;color:#fff;border-radius:6px}#theme-footer{top:200px}.news_content{margin-top:100px}.news_content .container div{position:relative}.header_instaarts_news{color:#3bb44a}.header_instaarts_news h2{color:#3bb44a}.header_instaarts_news h2 span{color:#fff;background-color:#3bb44a;padding-left:6px;padding-right:24px;padding-top:12px;padding-bottom:12px}.instaarts_news_destaque{cursor:pointer;transition:.4s ease;margin-bottom:100px;margin-top:100px}.instaarts_news_destaque img{position:relative;top:10px;width:100%}.instaarts_news_destaque div{background-color:#fff;border:1px solid #e3e3e3;padding:14px;position:relative;bottom:10px;text-align:left;transition:.4s ease}.instaarts_news_destaque div span{color:#fff;padding:4px;background-color:#3bb44a;font-size:1.2em}.instaarts_news_destaque:hover div{background-color:#3bb44a;color:#fff}.posts_n1_instaarts_news .post_col{cursor:pointer;border:1px solid #e3e3e3;text-align:center;max-width:379px;margin:5px;transition:.4s ease;margin-bottom:100px}.posts_n1_instaarts_news .post_col img{position:relative;top:10px;width:100%}.posts_n1_instaarts_news .post_col div{background-color:#fff;border:1px solid #e3e3e3;height:118px;position:relative;bottom:10px;transition:.4s ease}.posts_n1_instaarts_news .post_col div span{color:#3bb44a;font-size:1.2em;transition:.4s ease}.posts_n1_instaarts_news .post_col:hover{border:1px solid #3bb44a}.posts_n1_instaarts_news .post_col:hover div{background-color:#3bb44a;color:#fff}.posts_n1_instaarts_news .post_col:hover div span{color:#fff}.produtos_instaarts_news{text-align:center;width:60%;margin:auto;top:72px}.produtos_instaarts_news .col-lg-3{padding-top:50px}.produtos_instaarts_news h2{padding:5px;background-color:#3bb44a;color:#fff;max-width:405px;right:0;left:0;margin:auto;margin-bottom:72px}@media(max-width: 324px){.produtos_instaarts_news{width:90%}}.posts_n2_instaarts_news .post_col{cursor:pointer;border:1px solid #e3e3e3;text-align:center;max-height:415px;max-width:575px;margin:5px;margin-bottom:100px}.posts_n2_instaarts_news .post_col div{background-color:#fff;border:1px solid #e3e3e3;position:relative;bottom:10px;transition:.4s ease}.posts_n2_instaarts_news .post_col div span{color:#3bb44a;font-size:1.2em}.posts_n2_instaarts_news .post_col:hover{border:1px solid #3bb44a}.posts_n2_instaarts_news .post_col:hover div{background-color:#3bb44a;color:#fff}.posts_n2_instaarts_news .post_col:hover div span{color:#fff}/*# sourceMappingURL=style.css.map */
+/*
+Theme Name: Zoa Child
+Theme URI: http://haintheme.com
+Template: zoa
+Author: willian de olivera
+Author URI: http://themeforest.net/user/haintheme
+Description: Zoa child theme from willian de oliveira
+Tags: custom-background,threaded-comments,custom-menu,featured-images,full-width-template,theme-options
+Version: 1.1.1538661612
+Updated: 2018-10-04 14:00:12
+*/
+#theme-container {
+  overflow-x: initial !important;
+}
+
+#zoa_child_theme_footer {
+  position: relative;
+  background-color: #222;
+}
+#zoa_child_theme_footer h2 {
+  color: white;
+}
+#zoa_child_theme_footer hr {
+  background-color: #404040;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#zoa_child_theme_footer .img_logo img {
+  width: 170px;
+  margin-top: 15px;
+}
+#zoa_child_theme_footer .social_network {
+  display: flex;
+}
+#zoa_child_theme_footer .social_network img {
+  margin: 2px;
+  transition: 0.3s;
+}
+#zoa_child_theme_footer .social_network img:hover {
+  width: 44px;
+}
+#zoa_child_theme_footer .zoa_child_subfooter {
+  padding: 10px;
+}
+
+.entry-title {
+  display: none !important;
+}
+
+.woocommerce-mini-cart__total .amount {
+  padding: 5px;
+  color: white !important;
+  background-color: #27b749 !important;
+}
+
+.cart-sidebar-content .woocommerce-mini-cart__buttons .checkout {
+  color: white !important;
+  background-color: #27b749 !important;
+}
+
+.cart-sidebar-content .woocommerce-mini-cart__buttons .checkout {
+  color: white;
+  background-color: #27b749 !important;
+}
+
+.button .checkout .wc-forward:hover {
+  color: white;
+}
+
+.zoa_ssl_logo {
+  max-width: 120px;
+}
+
+.modal_subscribeform_10 {
+  color: white;
+  background: #38b753;
+  text-align: center;
+  font-size: 4em;
+  line-height: normal;
+  height: 100;
+  width: 100%;
+  padding: 17px;
+  border-radius: 15px 50px;
+}
+.modal_subscribeform_10 span {
+  font-size: 0.3em;
+}
+
+.submit_modal_subscribeform {
+  padding: 10px !important;
+  background-color: #38b753;
+  border: 1px solid;
+  color: white;
+  font-family: sans-serif;
+  transition: 0.3s ease;
+}
+.submit_modal_subscribeform :hover {
+  background-color: white !important;
+  color: #38b753 !important;
+}
+
+.modal_subscribe_form_ganhe {
+  text-align: center;
+  color: #38b753;
+  font-family: sans-serif;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.formulario_subscribe {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #38b753;
+  color: white;
+  border-radius: 6px;
+}
+
+/* 
+* Footer do tema 
+*/
+#theme-footer {
+  top: 200px;
+}
+
+/* 
+* Header do instaarts news
+*/
+.header_instaarts_news h2 {
+  color: white;
+  background-color: #3bb44a;
+  padding: 1px;
+  width: 80px;
+}
+
+/* 
+* Fim Header do instaarts news
+*/
+/*
+* News destaque
+*/
+.instaarts_news_destaque {
+  position: relative;
+  margin-bottom: 20px;
+}
+.instaarts_news_destaque div {
+  position: absolute;
+  bottom: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #0a0a0a91;
+  margin-left: 5px;
+}
+
+.instaarts_news_titulo {
+  position: absolute;
+  max-width: 80%;
+  bottom: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #0a0a0a91;
+  margin-left: 5px;
+}
+
+.post_col {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/*
+* Produto
+*/
+.produtos_instaarts_news {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  top: 72px;
+}
+.produtos_instaarts_news img {
+  max-width: 80%;
+}
+.produtos_instaarts_news .col-lg-3 {
+  padding-top: 50px;
+}
+.produtos_instaarts_news h2 {
+  padding: 5px;
+  background-color: #3bb44a;
+  color: white;
+  display: inline-block;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-bottom: 72px;
+}
+
+@media (max-width: 324px) {
+  .produtos_instaarts_news {
+    width: 90%;
+  }
+}
+@media (min-width: 620px) {
+  .produtos_instaarts_news {
+    width: 90%;
+  }
+}
+.post_destaque {
+  position: relative;
+  margin: 8px;
+}
+.post_destaque span {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00000000", endColorstr="#000000",GradientType=0 );
+}
+.post_destaque h5 {
+  color: white;
+  background-color: #3bb44a;
+  padding: 8px;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.scrolling-wrapper .card {
+  display: inline-block;
+}
+.scrolling-wrapper .post_card_ver_mais {
+  display: inline-block;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+.scrolling-wrapper-flexbox .post_card_ver_mais {
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+
+.card {
+  position: relative;
+  width: 240px;
+  background: #353535;
+  color: white;
+  white-space: initial;
+}
+.card div {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 21px;
+  bottom: 0px;
+  padding: 8px;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00000000", endColorstr="#000000",GradientType=0 );
+}
+
+.post_card_ver_mais {
+  position: relative;
+  width: 240px;
+  padding-left: 14px;
+  top: 24px;
+}
+.post_card_ver_mais div {
+  position: absolute;
+  bottom: 0px;
+  padding: 8px;
+}
+
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll_posts {
+  margin: 100px;
+}
+.scroll_posts span {
+  clear: both;
+  margin: 15px 0;
+  font-size: 1.24em;
+  background-color: #3bb44a;
+  color: white;
+  padding: 5px;
+}
+.scroll_posts .scroll_prev {
+  float: left;
+}
+.scroll_posts .scroll_next {
+  float: right;
+}
+.scroll_posts .scroll_container {
+  display: flex;
+  margin: 6px;
+}
+.scroll_posts .scroll_container .scroll_button button {
+  height: 100%;
+  margin: 6px;
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+.posts_grid {
+  display: flex;
+}
+
+@media (min-width: 992px) {
+  .post_coluna .post_destaque {
+    width: 217px;
+    display: inline-grid;
+  }
+
+  .post_destaque {
+    display: inline-grid;
+  }
+  .post_destaque h5 {
+    position: absolute;
+  }
+  .post_destaque span {
+    font-size: 16px;
+  }
+}
+.active {
+  font-size: 2em;
+}
+
+@media (max-width: 1200px) {
+  .p_c_1 {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .p_c_2 {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .scroll_posts {
+    margin: 0px;
+    margin-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

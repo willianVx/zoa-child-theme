@@ -12,6 +12,7 @@ if ( !function_exists( 'chld_thm_cfg_parent_css' ) ):
         wp_enqueue_script('global_bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.js','jquery', 1.4, true);
         //wp_enqueue_script('global_bootstrap.main', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js','jquery', 1.4, true);
         wp_enqueue_script('global_modal_subscribeform', get_stylesheet_directory_uri() . '/js/global_modal_subscribeform.js','jquery', 1.4, true);
+        wp_enqueue_script('zoa_custom_click_drag_scroll', get_stylesheet_directory_uri() . '/zoa-child-custom/js/click_and_drag_scroll.js','jquery', 1.4, true);
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
