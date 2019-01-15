@@ -148,7 +148,7 @@ function conteudo_news(){
                     <div class='scroll_container'>
 
                         <div class='scroll_button'>
-                            <button class='scroll_prev'><span class='glyphicon glyphicon-chevron-left'></span></button>
+                            <button class='scroll_prev scroll_prev_sw2'><span class='glyphicon glyphicon-chevron-left'></span></button>
                         </div>
 
                         <div class="scrolling-wrapper s-w-2">
@@ -174,7 +174,7 @@ function conteudo_news(){
                         </div>
                         
                         <div class='scroll_button'>
-                            <button class='scroll_next'><span class='glyphicon glyphicon-chevron-right'></span></button>
+                            <button class='scroll_next scroll_next_sw2'><span class='glyphicon glyphicon-chevron-right'></span></button>
                         </div>
 
                     </div>
@@ -188,11 +188,11 @@ function conteudo_news(){
                     
                     <div class='scroll_container'>
 
-                        <div class='scroll_button'>
-                            <button class='scroll_prev'><span class='glyphicon glyphicon-chevron-left'></span></button>
+                        <div class='scroll_button scroll_prev_sw2'>
+                            <button class='scroll_prev scroll_prev_sw3'><span class='glyphicon glyphicon-chevron-left'></span></button>
                         </div>
 
-                        <div class="scrolling-wrapper">
+                        <div class="scrolling-wrapper s-w-3">
                             <?php foreach($post_scrolling_3 as $post){ ?>
                                 <a href="<?php echo $post['post_link']; ?>">
                                     <div class="card">
@@ -214,8 +214,8 @@ function conteudo_news(){
                             </div>
                         </div>
                         
-                        <div class='scroll_button'>
-                            <button class='scroll_next'><span class='glyphicon glyphicon-chevron-right'></span></button>
+                        <div class='scroll_button '>
+                            <button class='scroll_next scroll_next_sw3'><span class='glyphicon glyphicon-chevron-right'></span></button>
                         </div>
 
                     </div>

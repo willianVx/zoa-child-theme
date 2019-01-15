@@ -1,61 +1,77 @@
-    const slider = document.querySelector('.scrolling-wrapper');
+    const slider = document.querySelectorAll('.scrolling-wrapper');
     let isDown = false;
     let startX;
     let scrollleft;
 
-    slider.addEventListener('mousedown', (e) => {
-        isDown = true;
-        slider.classList.add('active');
-        startX = e.pageX - slider.offsetLeft;
-        scrollleft = slider.scrollLeft;
+    Array.from(slider).forEach(function(slider){
+            
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active');
+            startX = e.pageX - slider.offsetLeft;
+            scrollleft = slider.scrollLeft;
+        });
+
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 3;
+            slider.scrollLeft = scrollleft - walk;
+        });
+
     });
+    const slider_01 = document.querySelector('.scrolling-wrapper');
 
-    slider.addEventListener('mouseleave', () => {
-        isDown = false;
-        slider.classList.remove('active');
-    });
+    const scroll_prev = document.querySelector('.scroll_prev');
+    const scroll_next = document.querySelector('.scroll_next');
 
-    slider.addEventListener('mouseup', () => {
-        isDown = false;
-        slider.classList.remove('active');
-    });
-
-    slider.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - slider.offsetLeft;
-        const walk = (x - startX) * 3;
-        slider.scrollLeft = scrollleft - walk;
-    });
-
-    const scroll_prev = document.getElementsByClassName('scroll_prev');
-    const scroll_next = document.getElementsByClassName('scroll_next');
-
-    console.log(scroll_prev);
-    console.log(scroll_prev[0]);
-
-    scroll_prev[0].addEventListener('click', () => {
-        slider.scrollLeft = slider.scrollLeft - 200;
-    });
-
-    scroll_prev[1].addEventListener('click', () => {
-        slider.scrollLeft = slider.scrollLeft - 200;
-    });
-
-    scroll_prev[2].addEventListener('click', () => {
-        slider.scrollLeft = slider.scrollLeft - 200;
-    });
-
-    scroll_next[0].addEventListener('click', () => {
-        slider.scrollLeft = slider.scrollLeft + 200;
-    });
-
-    scroll_next[1].addEventListener('click', () => {
-        slider.scrollLeft = slider.scrollLeft + 200;
-    });
     
-    scroll_next[2].addEventListener('click', () => {
-        slider.scrollLeft = slider.scrollLeft + 200;
+    scroll_prev.addEventListener('click', () => {
+        slider_01.scrollLeft = slider_01.scrollLeft - 200;
+    });
+
+    scroll_next.addEventListener('click', () => {
+        slider_01.scrollLeft = slider_01.scrollLeft + 200;
+    });
+
+    const slider_02 = document.querySelector('.s-w-2');
+
+    const scroll_prev_02 = document.querySelector('.scroll_prev_sw2');
+    const scroll_next_02 = document.querySelector('.scroll_next_sw2');
+
+    
+    scroll_prev_02.addEventListener('click', () => {
+        slider_02.scrollLeft = slider_02.scrollLeft - 200;
+    });
+
+    scroll_next_02.addEventListener('click', () => {
+        slider_02.scrollLeft = slider_02.scrollLeft + 200;
+    });
+
+
+    const slider_03 = document.querySelector('.s-w-3');
+
+    const scroll_prev_03 = document.querySelector('.scroll_prev_sw3');
+    const scroll_next_03 = document.querySelector('.scroll_next_sw3');
+
+    
+    scroll_prev_03.addEventListener('click', () => {
+        slider_03.scrollLeft = slider_02.scrollLeft - 200;
+    });
+
+    scroll_next_03.addEventListener('click', () => {
+        slider_03.scrollLeft = slider_02.scrollLeft + 200;
     });
 
 
