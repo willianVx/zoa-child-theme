@@ -43,7 +43,7 @@ function conteudo_news(){
                     </div>
 
                     <!-- Coluna principal --> 
-                    <div class='post_destaque'>
+                    <div class='post_destaque  post_destaque_big'>
                         <a href="<?php echo $post_destaque_main[0]['post_link']; ?>">
                             <h5>Destaque</h5>
                             <?php echo $post_destaque_main[0]['post_image'] ?>

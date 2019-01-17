@@ -1,4 +1,4 @@
-    const slider = document.querySelectorAll('.scrolling-wrapper');
+const slider = document.querySelectorAll('.scrolling-wrapper');
     let isDown = false;
     let startX;
     let scrollleft;
@@ -31,6 +31,18 @@
         });
 
     });
+    
+    /*
+    scroll_posts = document.querySelectorAll('.scroll_posts');
+
+    console.log(scroll_posts);
+
+    Array.from(scroll_posts).forEach(function(scroll_posts, index){
+        console.log(scroll_posts.childNodes);
+        console.log(index);
+    });
+    */
+
     const slider_01 = document.querySelector('.scrolling-wrapper');
 
     const scroll_prev = document.querySelector('.scroll_prev');
@@ -73,10 +85,3 @@
     scroll_next_03.addEventListener('click', () => {
         slider_03.scrollLeft = slider_02.scrollLeft + 200;
     });
-
-
-
-
-
-
-

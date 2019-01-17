@@ -131,43 +131,6 @@ $cor_principal_custom_content: #3bb44a;
         }
 }
 
-
-/* 
-* Fim Header do instaarts news
-*/
-
-/*
-* News destaque
-*/
-
-.instaarts_news_destaque{
-    position: relative;
-    margin-bottom: 20px;
-    div{
-        position: absolute;
-        bottom: 5px;
-        padding: 5px;
-        color: white;
-        background-color: #0a0a0a91;
-        margin-left: 5px;
-    }
-}
-
-.instaarts_news_titulo{
-    position: absolute;
-    max-width: 80%;
-    bottom: 5px;
-    padding: 5px;
-    color: white;
-    background-color: #0a0a0a91;
-    margin-left: 5px;
-}
-
-.post_col{
-    position: relative;
-    margin-bottom: 20px;
-}
-
 /*
 * Produto
 */
@@ -208,7 +171,6 @@ $cor_principal_custom_content: #3bb44a;
 
 .post_destaque{
     position: relative;
-    margin:8px;
     span{
         position: absolute;
         bottom: 0px;
@@ -225,6 +187,14 @@ $cor_principal_custom_content: #3bb44a;
         background-color: $cor_principal_custom_content;
         padding: 8px;
     }
+    
+}
+
+.post_destaque_big{
+    img{
+        width: 108%!important;
+        height: 100%!important;
+    }
 }
 
 .scrolling-wrapper {
@@ -232,8 +202,6 @@ $cor_principal_custom_content: #3bb44a;
     overflow-y: hidden;
     white-space: nowrap;
     
-
-
     .card {
       display: inline-block;
     }
@@ -336,7 +304,7 @@ $cor_principal_custom_content: #3bb44a;
 
     .post_coluna{
         .post_destaque{
-            width: 217px;
+            width: 242px;
             display: inline-grid;
         }
     }
@@ -371,4 +339,3 @@ $cor_principal_custom_content: #3bb44a;
         margin-bottom: 60px;
     }
 }
-
