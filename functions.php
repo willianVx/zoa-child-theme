@@ -20,10 +20,19 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 // END ENQUEUE PARENT ACTION
 require ('zoa-child-custom/child-footer.php');
 require ('zoa-child-custom/modal_subscribeform.php');
-require ('zoa-child-custom/zoa-child_custom_content.php');
+//require ('zoa-child-custom/zoa-child_custom_content.php');
 require ('zoa-child-custom/zoa-child-load-post.php');
 
-//Carrega template para páginas customizadas    
+//Carrega template para páginas customizadas
+function zoa_child_custom_content_init(){
+    $dir = plugin_dir_path( __FILE__ );
+    $page = get_page_by_title('news');
+    if (is_page($page->ID)) {
+        include($dir."/zoa-child-custom/zoa-child_custom_content.php");
+    }
+}
+add_filter( 'the_content', 'zoa_child_custom_content_init');
+/*
 function zoa_child_custom_content($content){
     $page = get_page_by_title('news');
     if (is_page($page->ID)) {
@@ -32,6 +41,7 @@ function zoa_child_custom_content($content){
     return $content;
 }
 add_filter('the_content', 'zoa_child_custom_content');
+*/
 
 //Carrega tamanho personalizado para imagens 
 add_action( 'after_setup_theme', 'zoa_img_theme_setup' );

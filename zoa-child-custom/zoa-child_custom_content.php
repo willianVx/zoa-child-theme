@@ -1,6 +1,4 @@
-<?php
-function conteudo_news(){
-    ?>
+
        <div class="news_content container">
 
                 <!-- Header do instaarts news  -->
@@ -261,5 +259,3 @@ function conteudo_news(){
                <!-- fim Produtos --> 
 
        </div>
-    <?php
-}
