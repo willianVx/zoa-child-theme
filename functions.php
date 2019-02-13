@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 // END ENQUEUE PARENT ACTION
 require ('zoa-child-custom/child-footer.php');
 require ('zoa-child-custom/modal_subscribeform.php');
-//require ('zoa-child-custom/zoa-child_custom_content.php');
+require ('zoa-child-custom/zoa-child_custom_content.php');
 require ('zoa-child-custom/zoa-child-load-post.php');
 
 //Carrega template para páginas customizadas
